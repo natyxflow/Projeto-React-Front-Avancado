@@ -1,5 +1,7 @@
 import './App.css';
 
+import Copyright from './Copyright';
+
 import { lazy, Suspense } from 'react';
 
 //import Texto from './Texto';
@@ -24,7 +26,7 @@ function App() {
         <Suspense fallback={<p>TUDO!!!</p>}>
         <Link />
         </Suspense>
-        
+        <Copyright ano="2021"/>                   
       </header>
     </div>
   );
